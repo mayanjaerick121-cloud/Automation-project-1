@@ -27,3 +27,5 @@ with open('remote_jobs.csv', 'w', newline='', encoding='utf-8') as file:
             job_summary = summary.text.strip().replace('\n', ' ')
             writer.writerow([job_title, company_name, job_location, job_summary])
     print("Done! Check the remote_jobs.csv file for the results.")
+
+Improved job scraper
